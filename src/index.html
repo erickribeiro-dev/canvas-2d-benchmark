@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas 2D Benchmark</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div>
+      <noscript>This application requires JavaScript to run.</noscript>
+      <h1>Canvas 2D Benchmark</h1>
+    </div>
+    <div class="flex-container">
+      <div id="canvas-container">
+        <canvas id="canvas" class="done" width="400" height="400"></canvas>
+      </div>
+      <div id="ui-container">
+        <button id="start-btn" class="done"><u>R</u>un</button>
+        <output id="output"></output>
+        <div id="info-container">
+          <h3>Shortcuts:</h3>
+          <p>F - Enter fullscreen</p>
+          <p>R - Run benchmark</p>
+          <p>ESC - Leave fullscreen</p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
