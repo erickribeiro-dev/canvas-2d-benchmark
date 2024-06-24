@@ -65,11 +65,11 @@
       shapes.push(new Rectangle(x, y, width, height, style));
     }
   }
-  // Removes one shape from the list
+  // Removes one shape from the array
   function popRectangle() {
     shapes.pop();
   }
-  // Adds or remove shapes to the list depending on the fps
+  // Adds or remove shapes to the array depending on the fps
   function manageShapes(fps) {
     switch (true) {
       case fps > bench.goodFPS:
